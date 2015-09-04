@@ -40,49 +40,25 @@ def base(request):
         'app/base.html',
         context_instance = RequestContext(request,
             {
-                'title': 'Title',
-                'left_header': 'Your Name',
-                'header_right_one': 'Portfolio',
+                'title': 'Tim Reilly Resume',
+                'left_header': 'Tim Reilly',
+                'header_right_one': 'Little Album',
                 'header_right_two': 'About',
                 'header_right_three': 'Contact',
                 
-                'main': 'What This Is',
-                'secondary': 'What you do',
-                'tertiary': 'What are we doing?',
+                'main': 'This is me!',
+                'secondary': 'I Play Ultimate, Code, and Work for Microsoft',
+                'tertiary': 'Let\'s hang out at DjangoCon',
                 
-                'portfolio_main': 'Things I\'ve done',
+                'portfolio_main': 'Little Album',
                 
                 'about_main': 'About',
                 
                 'contact_main': 'Say Hi',    
-                'email': 'you@email.com',
-                'twitter': '@yourtwitter',
-                'number': '503-555-YOU1',
+                'email': 'Tim.Reilly@microsoft.com',
+                'twitter': '@timmyreilly',
+                'number': '503-314-3771',
                 
                 'year': datetime.now().year,
             })
     )
-    
-def freelancer(request):
-    assert isinstance(request, HttpRequest)
-    return render(
-        request,
-        'app/freelancer.html',
-        context_instance = RequestContext(request,
-            {
-                'your_name': 'Your Name',
-                'allyou': 'Title',
-                'email': 'you@email.com',
-                'twitter': '@yourtwitter',
-                'number': '503-555-YOU1',
-                
-            })
-    )
-    
-    
-# def freelancer(request):
-#     assert isinstance(request, HttpRequest)
-#     
-#     return render('app/freelancer.html', {
-#         'your_name': 'Timbo'
-#     })
