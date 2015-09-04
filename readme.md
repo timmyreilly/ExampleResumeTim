@@ -1,5 +1,6 @@
 # DjangoCon 2015 Azure Challenge
 
+Here's an example of the Resume Starter Site!
 
 
 # [Resume Starter Site](http://youdjangositeresume.azurewebsites.net/)
