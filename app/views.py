@@ -47,7 +47,7 @@ def base(request):
                 'header_right_three': 'Contact',
                 
                 'main': 'This is me!',
-                'secondary': 'I Play Ultimate, Code, and Work for Microsoft',
+                'secondary': 'Play Ultimate, Code, and Work for Microsoft',
                 'tertiary': 'Let\'s hang out at DjangoCon',
                 
                 'portfolio_main': 'Little Album',
